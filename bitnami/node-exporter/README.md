@@ -122,6 +122,11 @@ The following table lists the configurable parameters of the Node Exporter chart
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example the following command sets the `minReadySeconds` of the Node Exporter Pods to `120` seconds.
 
 ```bash
+ 
+
+Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example the following command sets the `minReadySeconds` of the Node Exporter Pods to `120` seconds.
+
+```bash
 $ helm install my-release --set minReadySeconds=120 bitnami/node-exporter
 ```
 
